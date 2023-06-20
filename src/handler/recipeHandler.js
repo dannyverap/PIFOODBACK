@@ -2,7 +2,7 @@ const getRecipeById = require("../controlleres/getRecipeByID")
 const getRecipeByName = require("../controlleres/getRecipeByName")
 const postRecipe = require("../controlleres/postRecipe")
 const getAllRecipes = require("../controlleres/getAllRecipes");
-const deleteRecipeById = require("../controlleres/deleteRecipeByID");
+const deleteRecipeById = require("../controlleres/deleteRecipeID");
 
 const getAllRecipeHandler = async (req, res) => {
     try {
